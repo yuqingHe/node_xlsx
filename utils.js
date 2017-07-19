@@ -98,7 +98,7 @@ const expertFile=(_headers, _data)=>{
       }
   };
   // 导出 Excel
-  XLSX.writeFile(wb, 'output.xlsx');
+  XLSX.writeFile(wb, 'output.xls');
 }
 
 const file2Json=(path)=>{

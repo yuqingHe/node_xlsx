@@ -3,8 +3,8 @@ const  XLSX = require('xlsx');
 const utils = require('./utils');
 
 
-// const sourceData = utils.getJsonByPath('./output.xlsx');
-// const dataBase = utils.getJsonByPath('./output.xlsx');
+const sourceData = utils.getJsonByPath('./output.xls');
+const dataBase = utils.getJsonByPath('./output.xlsx');
 
 
 
